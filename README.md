@@ -2,7 +2,6 @@ Angular + Redux ToDo App
 
 # Quick Start
 
-```bash
 # Clone the repository
 git clone https://github.com/anna4ervinskaya/angularreduxtodo.git
 
@@ -15,7 +14,7 @@ npm install
 # Run dev server
 ng serve
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+# This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.7.0.
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
