@@ -2,16 +2,16 @@ Angular + Redux ToDo App
 
 # Quick Start
 
-# Clone the repository
+## Clone the repository
 git clone https://github.com/anna4ervinskaya/angularreduxtodo.git
 
-# Go to repository folder
+## Go to repository folder
 cd angularreduxtodo
 
-# Install all dependencies
+## Install all dependencies
 npm install
 
-# Run dev server
+## Run dev server
 ng serve
 
 # This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.7.0.
