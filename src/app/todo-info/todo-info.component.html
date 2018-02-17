@@ -1,0 +1,3 @@
+<div>Tasks: {{ (todos | async).length }}</div>
+<div>Updated: {{ (lastUpdate | async) | date:'mediumTime' }}</div>
+<button *ngIf="(todos | async).length > 0" class="btn btn-danger" (click)="clearTodos()" >Clear tasks</button>

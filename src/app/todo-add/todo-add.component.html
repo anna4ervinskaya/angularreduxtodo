@@ -1,0 +1,37 @@
+<form (ngSubmit)="onSubmit()" #todoForm="ngForm">
+  <div class="form-row">
+    <div class="col-auto">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Description"
+          id="description"
+          [(ngModel)]="model.description"
+          name="description"
+          #description="ngModel">
+    </div>
+    <div class="col-auto">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Responsible"
+        id="responsible"
+        [(ngModel)]="model.responsible"
+        name="responsible"
+        #responsible="ngModel">
+    </div>
+    <div class="col-auto">
+      <select
+        class="form-control"
+        id="tag"
+        [(ngModel)]="model.tag"
+        name="tag"
+        #tag="ngModel">
+        <option *ngFor="let c of tags" [ngValue]="c">{{c.title}}</option>
+      </select>
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary">Add task</button>
+    </div>
+  </div>
+</form>

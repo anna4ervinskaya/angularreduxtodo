@@ -1,0 +1,18 @@
+{
+
+    "tags_array" : [
+        {
+            "title" : "Important",
+            "color" : "#fd7e14"
+        },
+        {
+            "title" :"Job stuff",
+            "color" : "#007bff"
+        },
+        {
+            "title" : "Birthday",
+            "color" : "#28a745"
+        }
+    ]
+
+}
